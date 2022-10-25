@@ -1,4 +1,4 @@
-package day12;
+package ellyhocanınDosya.day12;
 
 import java.util.Random;
 

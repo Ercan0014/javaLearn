@@ -1,4 +1,4 @@
-package HaftanınTaskiii;
+package sonHalukhoca.j15_Arrays.task_Array_ödev;
 
 public class T06 {
     public static void main(String[] args) {

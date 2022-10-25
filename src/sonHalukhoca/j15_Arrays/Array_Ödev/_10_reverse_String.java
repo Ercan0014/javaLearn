@@ -1,4 +1,4 @@
-package j15_Arrays.odev;
+package sonHalukhoca.j15_Arrays.Array_Ödev;
 
 public class _10_reverse_String {
 
@@ -9,6 +9,8 @@ public class _10_reverse_String {
         Stringi tersten yazdırın ve print edin.
         Cevap böyle olmalı :  "dlroW olleH"
          */
+
+
 
 
     }

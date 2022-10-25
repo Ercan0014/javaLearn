@@ -1,4 +1,4 @@
-package j15_Arrays.odev;
+package sonHalukhoca.j15_Arrays.Array_Ödev;
 
 public class _21_Array_reverse {
 

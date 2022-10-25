@@ -1,12 +1,15 @@
 package sonHalukhoca.j19_StaticVariable.TaskStatikVariable;
 
-public class taskRunner {
-    
+import java.awt.*;
+
+public class RactangleRunner {
 
     public static void main(String[] args) {
-
-taskRunner dikdörtgen=new taskRunner(5,2);
-
-
+      /*
+        Rectangle rectangle = new Rectangle(10, 15);
+        System.out.println(rectangle.alanHesapla());
+        System.out.println(rectangle.cevreHesapla());
+    */
     }
+
 }

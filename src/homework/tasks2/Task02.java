@@ -1,5 +1,7 @@
 package homework.tasks2;
 
+import java.util.Scanner;
+
 public class Task02 {
     public static void main(String[] args) {
         /*
@@ -17,5 +19,17 @@ public class Task02 {
          *
          *
          */
+
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("boyunuzu giriniz: ");
+        double boy=sc.nextDouble();
+        System.out.println("kilonuzu giriniz: ");
+        double kilo=sc.nextDouble();
+
+        double vucutkitleİndeksi=(kilo/(boy*boy));
+
+        System.out.println("vucut kitle indeksiniz: " + vucutkitleİndeksi);
+
     }
 }

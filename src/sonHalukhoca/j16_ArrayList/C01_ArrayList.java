@@ -1,4 +1,4 @@
-package j16_ArrayList;
+package sonHalukhoca.j16_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -73,6 +73,7 @@ public class C01_ArrayList {
         ArrayList<String> listUlke = new ArrayList<>(List.of("Alamanya","Amerigonya","ingiltere","isvec"));
         listSayi.add(2,14);//listde index 2 'ye 14 değerini eklendi 2. idexdeki eski eleman bir index ileri kaydırıldı
         System.out.println("listSayi = " + listSayi);//[10, 39, 14, 72, 61, 41, 41]
+
 
 
 

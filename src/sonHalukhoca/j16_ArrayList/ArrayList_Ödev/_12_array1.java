@@ -1,4 +1,4 @@
-package j16_ArrayList.Tasks;
+package sonHalukhoca.j16_ArrayList.ArrayList_Ödev;
 
 public class _12_array1 {
 
@@ -20,7 +20,6 @@ public class _12_array1 {
 
     public static void main(String[] args) {
 
-     int[] arr = {1,2,3,1};
 
     }
 }

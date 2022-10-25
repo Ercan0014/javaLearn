@@ -1,4 +1,4 @@
-package j14_Scope;
+package sonHalukhoca.j14_Scope;
 
 public class C04_LocalVariable {
     public static void main(String[] args) {

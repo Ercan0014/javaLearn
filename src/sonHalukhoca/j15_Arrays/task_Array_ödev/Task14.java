@@ -1,6 +1,4 @@
-package j15_Arrays;
-
-import java.util.Arrays;
+package sonHalukhoca.j15_Arrays.task_Array_ödev;
 
 public class Task14 {
     public static void main(String[] args) {

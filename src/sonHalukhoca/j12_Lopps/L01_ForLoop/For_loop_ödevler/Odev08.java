@@ -1,4 +1,4 @@
-package j12_Lopps.L01_ForLoop.Tasks;
+package sonHalukhoca.j12_Lopps.L01_ForLoop.For_loop_ödevler;
 
 public class Odev08 {
 

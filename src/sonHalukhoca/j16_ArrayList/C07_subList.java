@@ -1,7 +1,4 @@
-package j16_ArrayList;
-
-import java.util.ArrayList;
-import java.util.List;
+package sonHalukhoca.j16_ArrayList;
 
 public class C07_subList {
     public static void main(String[] args) {
@@ -13,5 +10,9 @@ public class C07_subList {
  //      System.out.println("city = " + city);//city = [Londra, stockholm, Angara]
 
 
-    }
+
+
+
+    }//main sonu
+
 }

@@ -1,4 +1,4 @@
-package WhileLoopÖdev;
+package sonHalukhoca.j12_Lopps.WhileLoopÖdev;
 
 public class Task04 {
 

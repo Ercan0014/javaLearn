@@ -10,7 +10,7 @@ public class C04_Method_Creation { //motor
         topla(3,5); // 8
         /*
          farklı classtan method call etmek için
-        1. method satatic > gökteki güneş gibi
+        1. method static > gökteki güneş gibi
         2. ClassName.methodName() şeklinde call edilir
         3. aynı classtaki methdo doğrudan methodName ile call edilir.
 */

@@ -1,4 +1,4 @@
-package j14_Scope;
+package sonHalukhoca.j14_Scope;
 
 public class C02_StaticVariable {
 

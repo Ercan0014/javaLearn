@@ -1,4 +1,4 @@
-package j15_Arrays;
+package sonHalukhoca.j15_Arrays.task_Array_ödev;
 
 public class Task05 {
 

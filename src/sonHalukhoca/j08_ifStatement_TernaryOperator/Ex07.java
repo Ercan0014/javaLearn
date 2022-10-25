@@ -14,7 +14,7 @@ public class Ex07 {
          */
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("ehliyetiniz var ise E yoksa H giriniz : ");
+        System. out.print("ehliyetiniz var ise E yoksa H giriniz : ");
 
         char ehlyt = sc.next().charAt(0);//kullanıcının girdiği karakteri buyuk harfe cevirip ilk değerini alır
         if (ehlyt == 'E'||ehlyt =='e') {//ehlyt varlığı k0ntrol edildi

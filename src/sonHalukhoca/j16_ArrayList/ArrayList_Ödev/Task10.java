@@ -1,4 +1,4 @@
-package j16_ArrayList.Tasks;
+package sonHalukhoca.j16_ArrayList.ArrayList_Ödev;
 
 
 import java.util.ArrayList;

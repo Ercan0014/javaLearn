@@ -76,5 +76,10 @@ public class task04 {//amale köyden ırgat çağıran şeher
         //    else System.out.println("agam adam gibi karar gir ");
         //}
 
+
+
+
     }
+
+
 }

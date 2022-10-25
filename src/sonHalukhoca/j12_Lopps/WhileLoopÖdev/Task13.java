@@ -1,6 +1,4 @@
-package WhileLoopÖdev;
-
-import java.util.Scanner;
+package sonHalukhoca.j12_Lopps.WhileLoopÖdev;
 
 public class Task13 {
     public static void main(String[] args) {

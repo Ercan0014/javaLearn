@@ -1,4 +1,4 @@
-package j14_Scope;
+package sonHalukhoca.j14_Scope;
 
 public class C01_InstanceVariable {
 
@@ -43,8 +43,8 @@ public class C01_InstanceVariable {
         // non_staticMethod(); //non-static method call edilemezzz...galaxi'de dünyalık olmaz
 
         // obj creation -> ClassName objName  =  new ClassName();
-
-        C01_InstanceVariable ebikGabıkObj = (C01_InstanceVariable) new j14_Scope.C01_InstanceVariable();//obj create edildi
+/*
+        C01_InstanceVariable ebikGabıkObj = new  C01_InstanceVariable();//obj create edildi
 
         ebikGabıkObj.boy=1.9;//ınst variable obc ile call edilip atama yapıldı
         ebikGabıkObj.developerMı=true;
@@ -60,7 +60,7 @@ public class C01_InstanceVariable {
         System.out.println("obj1.boy = " + obj1.boy);//1.75
         System.out.println("obj1.name = " + obj1.name);//fatih bey
 
-
+*/
     }//main sonu
     //a=23;//local dısı call edilemez
 

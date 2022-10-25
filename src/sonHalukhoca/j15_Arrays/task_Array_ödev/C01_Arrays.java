@@ -1,6 +1,5 @@
-package j15_Arrays;
+package sonHalukhoca.j15_Arrays.task_Array_ödev;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class C01_Arrays {

@@ -1,4 +1,4 @@
-package day12;
+package ellyhocanınDosya.day12;
 
 public class C3_RandomFormula {
     public static void main(String[] args) {

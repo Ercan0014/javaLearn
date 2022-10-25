@@ -1,4 +1,4 @@
-package j12_Lopps.L01_ForLoop.Tasks;
+package sonHalukhoca.j12_Lopps.L01_ForLoop.For_loop_ödevler;
 
 public class Odev04 {
 
@@ -12,10 +12,13 @@ public class Odev04 {
 
         //Kodu aşağıya yazınız.
 
+    for (int i = 1; i <=100; i++){
+        if(i%4==0 && i%5==0){
+            System.out.println(i);
+        }
+    }
 
-
-
-
+        System.out.println();
 
     }
 }

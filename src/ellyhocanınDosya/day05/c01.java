@@ -1,4 +1,4 @@
-package elly_Hoca.day05;
+package ellyhocanınDosya.day05;
 
 //public class c01 {
 

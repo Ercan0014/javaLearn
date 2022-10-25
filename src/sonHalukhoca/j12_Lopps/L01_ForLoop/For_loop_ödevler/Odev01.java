@@ -1,4 +1,4 @@
-package j12_Lopps.L01_ForLoop.Tasks;
+package sonHalukhoca.j12_Lopps.L01_ForLoop.For_loop_ödevler;
 
 public class Odev01 {
 
@@ -9,6 +9,17 @@ public class Odev01 {
 
         //Kodu aşağıya yazınız.
 
+    for (int i=0; i<=100; i++){
+        if(i%2==0){
+            System.out.println("100'e kadar olan çift sayıların toplamı: " +i );
+
+        }
+
 
     }
+        System.out.println();
+
+
+
+    }//main sonu
 }

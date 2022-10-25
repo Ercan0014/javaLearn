@@ -1,4 +1,4 @@
-package j13_Brreak_Continue;
+package sonHalukhoca.j13_Brreak_Continue;
 
 public class C05_Oca_Type {
     public static void main(String[] args) {

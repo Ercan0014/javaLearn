@@ -1,4 +1,4 @@
-package j16_ArrayList;
+package sonHalukhoca.j16_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package j15_Arrays;
+package sonHalukhoca.j15_Arrays.task_Array_ödev;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -21,9 +21,13 @@ public class Task02 {
         int arrToplam = 0;//local var.
 
 
-        for (int i = 0; i < arr.length; i++) {
-            arrToplam += arr[i];
+     //  for (int i = 0; i < arr.length; i++) {
+     //      arrToplam += arr[i];
+     //  }
+     //  System.out.println("array eleman toplamları : "+arrToplam);
+        for (int a: arr) {
+            arrToplam+=a;
         }
-        System.out.println("array eleman toplamları : "+arrToplam);
+        System.out.println(arrToplam);
     }
 }

@@ -1,6 +1,4 @@
-package elly_Hoca.day06;
-
-import java.util.Scanner;
+package ellyhocanınDosya.day06;
 
 public class Q03 {
     public static void main(String[] args) {

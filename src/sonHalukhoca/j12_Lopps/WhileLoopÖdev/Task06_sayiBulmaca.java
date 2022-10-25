@@ -1,6 +1,5 @@
-package WhileLoopÖdev;
+package sonHalukhoca.j12_Lopps.WhileLoopÖdev;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Task06_sayiBulmaca {

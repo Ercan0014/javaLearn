@@ -1,4 +1,4 @@
-package j12_Lopps.L01_ForLoop.Tasks;
+package sonHalukhoca.j12_Lopps.L01_ForLoop.For_loop_ödevler;
 
 public class Odev06 {
 
@@ -9,6 +9,11 @@ public class Odev06 {
          */
 
 
+        int toplam = 0;
+        for (int i = 0; i <= 9; i++) {
+            toplam += i;
 
+        }
+        System.out.println("ilk 10 doğal sayının toplamı: "+ toplam);
     }
 }

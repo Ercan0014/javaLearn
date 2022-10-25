@@ -1,4 +1,4 @@
-package j13_Brreak_Continue;
+package sonHalukhoca.j13_Brreak_Continue;
 
 import java.util.Scanner;
 

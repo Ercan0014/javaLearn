@@ -1,6 +1,6 @@
-package j15_Arrays;
+package sonHalukhoca.j15_Arrays.task_Array_ödev;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Task10 {
 
@@ -12,7 +12,16 @@ public class Task10 {
 
          */
 
+        int arr[]={1,2,-3,4,-5,-6};
+        sayınınTersi(arr);
 
+    }
+
+    private static void sayınınTersi(int[] arr) {
+        for(int a:arr){
+            a*=-1;
+            System.out.println(a+ " ");
+        }
     }
 
 

@@ -1,6 +1,6 @@
 package sonHalukhoca.j19_StaticVariable.TaskStatikVariable;
 
-public class task {
+public class Ractangle<cevreBul> {
 
     /*
      Task 01 >
@@ -8,35 +8,29 @@ public class task {
      Runeer class'da obj ile cevre ve alan değerelrini print eden code create ediniz.
     */
 
-int width ;
-int length;
-
-    public task(int width, int length) {
-        this.width = width;
-        this.length = length;
+    public class Rectangle {
+        double width;
+        double length;
+        public Rectangle(double width, double length) {
+            this.width = width;
+            this.length = length;
+        }
+        public double cevreHesapla() {
+            return width + length + (Math.sqrt((length * length) + (width * width)));
+        }
+        public double alanHesapla() {
+            return width * length / 2;
+        }
     }
 
-    public void(cevrebul(){
-        int cevre=2*(width+length);
-        System.out.println("cevre:" + cevre );
 
-    }
 
-    public void (alanbul){
-        int alan=(width*length);
-        System.out.println("alan: "+ alan);
-    }
 
-	/*
-    Task 02 ->
-    ElektirikHesap Class:  fields : toplamTuketim(int), oran(double), fatura(double)
-    Müşteriye ait tüketilen enerjiyi toplamTuketim'e toplayan tüketimEkle method
-    oran(0.7)  katsaysı ile  toplamTuketim çarparak fatura değeri atayan odenecekTutar method
 
-    Müsteri Class: fields: name ElektrikHesabi class obj.
-    Runner Class obj ile enz 2  aylık elektrik tüketim faturası print eden code create ediniz
 
-     */
+
+
+
 
 	 /*
     Task 03 ->

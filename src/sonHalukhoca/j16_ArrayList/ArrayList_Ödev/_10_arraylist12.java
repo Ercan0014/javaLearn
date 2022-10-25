@@ -1,7 +1,8 @@
-package j16_ArrayList.Tasks;
+package sonHalukhoca.j16_ArrayList.ArrayList_Ödev;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class _10_arraylist12 {
 
@@ -21,8 +22,21 @@ public class _10_arraylist12 {
     min ve max aralığı da  dahil (Örnek1 'deki 20 ve 30 da dahildir.)
      */
 
-    public static void main(String[] args) {
-
-
+    public static void main(String[] args){
+            ArrayList<Integer> listSayi = new ArrayList<>(List.of(1, 5, 22, 10, 20, 14, 8, 25, 30, 28));
+            int x = 20;
+            int y = 30;
+            System.out.println(x + " ve " + y + " dahil olmak uzere " + x + " ve " + y + " arasında kalan Array elemanlarinin sayisi " + rangeBtw(listSayi, x, y));
+        }
+        private static int rangeBtw(ArrayList<Integer> listSayi, int x, int y) {
+            int count = 0;
+            for (int i = 0; i < listSayi.size(); i++) {
+                if (listSayi.get(i) >= x && listSayi.get(i) <= y) {
+                    count++;
+                }
+            }
+            return count;
+        }
     }
-}
+
+

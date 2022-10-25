@@ -1,5 +1,7 @@
 package homework.tasks2;
 
+import java.util.Scanner;
+
 public class Task07 {
 
     public static void main(String[] args) {
@@ -14,7 +16,13 @@ public class Task07 {
         Hızı giriniz: 100
         Süre 4 saattir.
      */
-
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Mesafe giriniz (km) : ");
+        double mesafaKm=scan.nextDouble();
+        System.out.println("Ortalama Hızınızı Giriniz (km/sa): ");
+        double ortalamaHız=scan.nextDouble();
+        double süre=(mesafaKm/ortalamaHız);
+        System.out.println(süre);
 
 
     }
