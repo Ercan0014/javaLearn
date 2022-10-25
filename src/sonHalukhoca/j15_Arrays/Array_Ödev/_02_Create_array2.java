@@ -1,4 +1,6 @@
-package j15_Arrays.odev;
+package sonHalukhoca.j15_Arrays.Array_Ödev;
+
+import java.util.Arrays;
 
 public class _02_Create_array2 {
 
@@ -10,6 +12,8 @@ public class _02_Create_array2 {
      */
         // Kodu aşağıya yazınız..
 
+    int sayı[]={13,15,14,16,16};
+        System.out.println(Arrays.toString(sayı));
 
     }
 }

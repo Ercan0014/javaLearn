@@ -1,4 +1,4 @@
-package j15_Arrays.odev;
+package sonHalukhoca.j15_Arrays.Array_Ödev;
 
 public class _04_Create_Array_String {
 
@@ -10,7 +10,8 @@ public class _04_Create_Array_String {
         Cevap 4 olmalı.
          */
 
-
+String arr[]={"new jersey" , "new york", "boston","California"};
+        System.out.println(arr.length);
 
 
     }

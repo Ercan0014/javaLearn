@@ -1,7 +1,9 @@
-package j16_ArrayList.Tasks;
+package sonHalukhoca.j16_ArrayList.ArrayList_Ödev;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 
 public class _04_arraylist4 {
 
@@ -19,9 +21,20 @@ public class _04_arraylist4 {
         Tüm blue 'ları yellow'a dönüştürün.
         cevap: "yellow" , "red" , "yellow" , "red" , "yellow"
      */
+    static ArrayList<String> colours = new ArrayList<>(List.of("yellow", "red", "blue", "red", "blue"));
+    static String s1 = "blue";
+    static String s2 = "yellow";
 
     public static void main(String[] args) {
+        System.out.println(changeInArraylist(colours, s1, s2));
+    }
 
-
+    private static ArrayList<String> changeInArraylist(ArrayList<String> colours, String s1, String s2) {
+        for (String i : colours) {
+            if (i.equals(s1)) {
+                colours.set(colours.indexOf(i), s2);
+            }
+        }
+        return colours;
     }
 }

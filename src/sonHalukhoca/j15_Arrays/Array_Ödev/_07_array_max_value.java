@@ -1,4 +1,6 @@
-package j15_Arrays.odev;
+package sonHalukhoca.j15_Arrays.Array_Ödev;
+
+import java.util.Arrays;
 
 public class _07_array_max_value {
 
@@ -10,6 +12,12 @@ public class _07_array_max_value {
          */
 
 
+        int sayi[]={12,2,5,15,8};
+        Arrays.sort(sayi);
+        System.out.println("max değer: " + sayi[sayi.length-1]);
+
+
+        }
     }
-}
+
 

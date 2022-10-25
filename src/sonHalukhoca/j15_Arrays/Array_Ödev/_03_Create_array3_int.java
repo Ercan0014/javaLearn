@@ -1,4 +1,4 @@
-package j15_Arrays.odev;
+package sonHalukhoca.j15_Arrays.Array_Ödev;
 
 public class _03_Create_array3_int {
 
@@ -9,8 +9,15 @@ public class _03_Create_array3_int {
           Cevap 220 olmalı.
      */
 
+int sayı[]={25,30,30,35,100};
+int toplam=0;
 
+        for (int i = 0; i < sayı.length; i++) {
+            toplam+=sayı[i];
 
+        }
+
+        System.out.println("sayıların toplamı: " + toplam);
 
     }
 }

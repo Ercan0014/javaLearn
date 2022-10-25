@@ -1,4 +1,4 @@
-package j16_ArrayList.Tasks;
+package sonHalukhoca.j16_ArrayList.ArrayList_Ödev;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,13 @@ public class _09_2dArray_with_arraylis {
      */
 
     public static void main(String[] args) {
-
-
+        int arr[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        ArrayList<Integer> yeniList = new ArrayList<>();
+        for (int sayıArr[] : arr) {
+            for (int x : sayıArr) {
+                yeniList.add(x);
+            }
+        }
+        System.out.println("yeni List = " + yeniList);
     }
 }

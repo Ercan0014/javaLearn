@@ -1,4 +1,6 @@
-package j15_Arrays.odev;
+package sonHalukhoca.j15_Arrays.Array_Ödev;
+
+import java.util.Arrays;
 
 public class _01_Create_array {
 
@@ -13,5 +15,8 @@ public class _01_Create_array {
         //Kodu aşağıya yazınız.
 
 
+        String meyve[]={"Apple", "Orange", "Banana", "Kiwi"};
+
+        System.out.println(Arrays.toString(meyve));
     }
 }

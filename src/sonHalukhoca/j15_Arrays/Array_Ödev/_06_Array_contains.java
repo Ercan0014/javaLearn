@@ -1,4 +1,4 @@
-package j15_Arrays.odev;
+package sonHalukhoca.j15_Arrays.Array_Ödev;
 
 public class _06_Array_contains {
 
@@ -10,7 +10,36 @@ public class _06_Array_contains {
         Eğer aitse "true" çevirin.
         Loops (döngüler) kullanın.
          */
+        String meyve[] = {"Apple", "Orange", "Banana", "Pineapple" };
+        String a = "Apple";
+/*
+        boolean flag = false;
+        for (int i = 0; i < meyve.length; i++) {
+            if (meyve[i] == a) {
+                flag = true;
+                break;
+            }
+        }
+        if (flag) {
+            System.out.println("aradığınız string var :) ");
+        } else {
+            System.out.println("aradığınız string yok  :( ");
 
+         }
+         */
+boolean meyveVarmı=false;
+        for (int i = 0; i < meyve.length ; i++) {
+            if(meyve[i].contains("Apple")){
+                meyveVarmı=true;
+                break;
+            }else {
+                meyveVarmı=false;
+            }
+
+        }
+
+        System.out.println(meyveVarmı);
 
     }
+
 }
