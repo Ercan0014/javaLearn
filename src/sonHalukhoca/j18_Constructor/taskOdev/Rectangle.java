@@ -1,0 +1,14 @@
+package sonHalukhoca.j18_Constructor.taskOdev;
+
+public class TaskOrnekRunner {
+    public static void main(String[] args) {
+
+/*
+     Task 01 >
+     fields: width, length ve cevre ve alan hesaplayaan methodolan Rectangle isminde Class create ediniz.
+     Runeer class'da obj ile cevre ve alan değerelrini print eden code create ediniz.
+    */
+
+
+    }
+}
