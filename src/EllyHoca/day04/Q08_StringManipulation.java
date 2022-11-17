@@ -1,4 +1,4 @@
-package ellyhocanınDosya.day04;
+package EllyHoca.day04;
 
 import java.util.Scanner;
 
@@ -13,5 +13,20 @@ public class Q08_StringManipulation {
 		         name2= ahmet
 		         Print ==> mehahmetmet
 		*/
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        String name1 = scan.nextLine().toLowerCase();
+        String name2 = scan.nextLine().toLowerCase();
+
+        if(name1.length()%2==0){
+            System.out.println(name1.substring(0,name1.length()/2).concat(name2).concat(name1.substring(name1.length()/2)));
+        }else {
+            System.out.println("name1 cift sayili olmadigi icin ortasina yerlestiremedik");
+        }
+
+    }
+
 
 }

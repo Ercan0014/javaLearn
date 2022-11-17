@@ -1,4 +1,4 @@
-package ellyhocanınDosya.day01;
+package EllyHoca.day01;
 
 import java.util.Scanner;
 

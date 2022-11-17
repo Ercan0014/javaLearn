@@ -1,4 +1,4 @@
-package ellyhocanınDosya.day02;
+package EllyHoca.day02;
 
 public class Q03_IncrementDecrement {
 

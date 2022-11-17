@@ -1,4 +1,4 @@
-package ellyhocanınDosya.day01;
+package EllyHoca.day01;
 
 public class Q02_Println_vs_print {
 

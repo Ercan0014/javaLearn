@@ -1,0 +1,23 @@
+package ATeam2;
+
+public class extends Kisi Öğrenci {
+
+    privite Stirng sinif;
+    privite  int öğrenciNo;
+
+    public privite getStirng() {
+        return Stirng;
+    }
+
+    public int getÖğrenciNo() {
+        return öğrenciNo;
+    }
+
+    public void setStirng(privite stirng) {
+        Stirng = stirng;
+    }
+
+    public void setÖğrenciNo(int öğrenciNo) {
+        this.öğrenciNo = öğrenciNo;
+    }
+}

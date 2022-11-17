@@ -1,4 +1,4 @@
-package ellyhocanınDosya.day04;
+package EllyHoca.day04;
 
 public class Q03_StringManipulation {
 

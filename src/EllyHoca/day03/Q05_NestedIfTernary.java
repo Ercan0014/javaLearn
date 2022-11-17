@@ -1,4 +1,4 @@
-package ellyhocanınDosya.day03;
+package EllyHoca.day03;
 
 public class Q05_NestedIfTernary {
     /*
